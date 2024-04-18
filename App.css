@@ -1,0 +1,90 @@
+.App {
+    font-family: Playfair Display, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #4A6274;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #79AEB2
+}
+
+    h1 img {
+        width: 325px;
+        height: 100px;
+        
+    }
+.product img{
+    width: 150px;
+    height: 150px;
+    margin-left: 130px;
+    position: absolute;
+}
+
+h4{
+    margin-top: 10px;
+}
+.product button {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.product button:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+.product {
+    border: 3px solid #50888c;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #79AEB2;
+    max-width: 300px;
+    color: #1e3335;
+}
+
+.product:hover {
+        background-color: #50888c;
+        cursor: pointer;
+    }
+
+.cart {
+    border: 3px solid #50888c;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #79AEB2;
+    margin-top: 80px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 750px;
+    height: 500px;
+    color: #1e3335;
+}
+.cart button {
+        background-color: cornflowerblue;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+.cart-item {
+    margin-bottom: 10px;
+}
+
+.cart-item-name {
+    font-weight: bold;
+    color: black;
+}
+
+.cart-total {
+    font-weight: bold;
+    margin-top: 10px;
+    color: light;
+}
+
+.empty-cart {
+    font-style: italic;
+    color: #1e3335;
+}
